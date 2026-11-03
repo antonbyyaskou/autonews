@@ -1,7 +1,7 @@
 # Static landing page, growth phase G2 in docs/ROADMAP.md.
 # Replace base_url and channel before the first deploy. The build warns while
 # base_url still uses the .example placeholder.
-base_url: https://autonews.example
+base_url: https://antonbyyaskou.github.io/autonews
 channel: autonews_test
 
 title: "Автоновости — новые модели, электромобили и технологии"
