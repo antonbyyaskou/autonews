@@ -1,0 +1,140 @@
+sources:
+  - name: CarNewsChina
+    url: https://carnewschina.com/feed/
+    region: china
+    lang: en
+    weight: 1.4
+    enabled: true
+
+  - name: CnEVPost
+    url: https://cnevpost.com/feed/
+    region: china
+    lang: en
+    weight: 1.3
+    enabled: true
+
+  - name: InsideEVs
+    url: https://insideevs.com/rss/articles/all/
+    region: us
+    lang: en
+    weight: 1.3
+    enabled: true
+
+  - name: Electrek
+    url: https://electrek.co/feed/
+    region: us
+    lang: en
+    weight: 1.2
+    enabled: true
+
+  - name: Motor1
+    url: https://www.motor1.com/rss/news/all/
+    region: us
+    lang: en
+    weight: 1.2
+    enabled: true
+
+  - name: Carscoops
+    url: https://www.carscoops.com/feed/
+    region: us
+    lang: en
+    weight: 1.0
+    enabled: true
+
+  - name: Autoblog
+    url: https://www.autoblog.com/rss.xml
+    region: us
+    lang: en
+    weight: 0.9
+    enabled: true
+
+  - name: Teslarati
+    url: https://www.teslarati.com/feed/
+    region: us
+    lang: en
+    weight: 0.8
+    enabled: true
+
+  - name: CleanTechnica
+    url: https://cleantechnica.com/feed/
+    region: us
+    lang: en
+    weight: 0.7
+    enabled: false
+
+  - name: Ars Technica Cars
+    url: https://feeds.arstechnica.com/arstechnica/cars
+    region: us
+    lang: en
+    weight: 0.8
+    enabled: true
+
+  - name: Autocar
+    url: https://www.autocar.co.uk/rss
+    region: europe
+    lang: en
+    weight: 1.2
+    enabled: true
+
+  - name: Auto Express
+    url: https://www.autoexpress.co.uk/rss
+    region: europe
+    lang: en
+    weight: 1.0
+    enabled: true
+
+  - name: Electrive
+    url: https://www.electrive.com/feed/
+    region: europe
+    lang: en
+    weight: 1.1
+    enabled: true
+
+  - name: Car and Driver
+    url: https://www.caranddriver.com/rss/all.xml
+    region: us
+    lang: en
+    weight: 1.1
+    enabled: true
+
+  - name: Road and Track
+    url: https://www.roadandtrack.com/rss/all.xml
+    region: us
+    lang: en
+    weight: 0.9
+    enabled: true
+
+  - name: The Drive
+    url: https://www.thedrive.com/feed
+    region: us
+    lang: en
+    weight: 0.9
+    enabled: true
+
+  - name: Engadget
+    url: https://www.engadget.com/rss.xml
+    region: us
+    lang: en
+    weight: 0.6
+    enabled: true
+
+  - name: Pandaily
+    url: https://pandaily.com/feed/
+    region: china
+    lang: en
+    weight: 0.9
+    enabled: true
+
+  - name: Automobile Propre
+    url: https://www.automobile-propre.com/feed/
+    region: europe
+    lang: fr
+    weight: 0.9
+    enabled: true
+
+  - name: Electrive.net
+    url: https://www.electrive.net/feed/
+    region: europe
+    lang: de
+    weight: 0.9
+    enabled: false

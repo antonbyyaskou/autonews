@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title</title>
+<meta name="description" content="$description">
+<link rel="canonical" href="$base_url/">
+<meta name="theme-color" content="#0E1113">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Autonews">
+<meta property="og:title" content="$title">
+<meta property="og:description" content="$description">
+<meta property="og:url" content="$base_url/">
+<meta property="og:image" content="$base_url/icon.png">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="$base_url/icon.png" type="image/png">
+$verification_meta
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0E1113;
+  color: #F2F4F3;
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.25rem 1rem; }
+header { display: flex; align-items: center; gap: 1rem; }
+header img { width: 64px; height: 64px; border-radius: 16px; }
+.kicker {
+  margin: 0;
+  color: #C8FF2E;
+  font-size: .82rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(1.6rem, 4vw, 2.3rem); line-height: 1.2; margin: 1.5rem 0 1rem; }
+h2 { font-size: 1.15rem; margin: 2.5rem 0 .5rem; }
+.lead { font-size: 1.15rem; color: #D7DBD9; }
+ul { padding-left: 1.2rem; }
+li { margin: .4rem 0; }
+a { color: #C8FF2E; }
+.cta {
+  display: inline-block;
+  margin: 1rem 0 .25rem;
+  padding: .8rem 1.3rem;
+  border-radius: .6rem;
+  background: #C8FF2E;
+  color: #0E1113;
+  font-weight: 600;
+  text-decoration: none;
+}
+.cta:hover { background: #D6FF5C; }
+.alt { color: #A9B0AD; font-size: .95rem; }
+footer {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  border-top: 1px solid #23282B;
+  color: #A9B0AD;
+  font-size: .9rem;
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "$base_url/#website",
+      "url": "$base_url/",
+      "name": "Autonews",
+      "inLanguage": "ru",
+      "description": $description_json,
+      "publisher": { "@id": "$base_url/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "$base_url/#organization",
+      "name": "Autonews",
+      "url": "$base_url/",
+      "logo": "$base_url/icon.png",
+      "sameAs": ["$channel_url"]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+<header>
+<img src="$base_url/icon.png" alt="Autonews" width="64" height="64">
+<p class="kicker">Telegram-канал об автопроме</p>
+</header>
+
+<h1>Автоновости: новые модели, электромобили и технологии</h1>
+
+<p class="lead">Что выходит в Китае, США и Европе — кратко и по фактам:
+характеристики, цены, сроки поставок. Без слухов, восторгов и эмодзи.</p>
+
+<p><a class="cta" href="$channel_url">Открыть канал в Telegram</a></p>
+<p class="alt">Нет Telegram? <a href="$preview_url">Читайте веб-версию</a>.</p>
+
+<section>
+<h2>Что в канале</h2>
+<ul>
+<li>Новые модели и рестайлинги: платформа, мощность, запас хода.</li>
+<li>Электромобили, гибриды и новые технологии.</li>
+<li>Цены и сроки по рынкам Китая, США и Европы.</li>
+<li>Ссылка на первоисточник в каждом посте.</li>
+</ul>
+</section>
+
+<section>
+<h2>Как мы работаем</h2>
+<p>Канал собирает иностранные автомобильные новости, переводит их на русский
+и публикует только после проверки человеком. Каждое число в посте сверяется
+с исходным текстом.</p>
+</section>
+</main>
+
+<footer>
+<p>Autonews · <a href="$channel_url">Telegram</a></p>
+</footer>
+</body>
+</html>

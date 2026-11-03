@@ -1,0 +1,17 @@
+llm_provider: go
+model_score: glm-5.3-flash
+model_draft: glm-5.3-flash
+model_verify: deepseek-v4.1-flash
+
+http_timeout: 25
+http_retries: 2
+max_articles_per_extract: 60
+max_stories_per_score: 80
+max_drafts_per_run: 40
+score_threshold: 45
+cluster_window_hours: 72
+cluster_threshold: 0.42
+media_max_bytes: 47185920
+post_min_chars: 280
+post_max_chars: 520
+confirm_ttl_seconds: 600

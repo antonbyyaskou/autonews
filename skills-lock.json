@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "app-icon-optimization": {
+      "source": "appeeky/aso-skills",
+      "sourceType": "github",
+      "skillPath": "skills/app-icon-optimization/SKILL.md",
+      "computedHash": "cbd6d2c1ad5708dc4c00fe542dad3dcc575cc66ceb82b3ead411d6ac20173a1a"
+    }
+  }
+}

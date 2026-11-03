@@ -1,0 +1,178 @@
+{
+  "palette": {
+    "graphite": {
+      "hex": "#0E1113",
+      "role": "tile body and lime keyline",
+      "luminance": 0.0054
+    },
+    "offwhite": {
+      "hex": "#F2F4F3",
+      "role": "the letter A",
+      "luminance": 0.9005
+    },
+    "lime": {
+      "hex": "#C8FF2E",
+      "role": "bolt and crossbar",
+      "luminance": 0.84
+    },
+    "asphalt": {
+      "hex": "#5A7082",
+      "role": "perimeter ring",
+      "luminance": 0.1537
+    }
+  },
+  "contrast": {
+    "graphite": {
+      "graphite": 1.0,
+      "offwhite": 17.15,
+      "lime": 16.06,
+      "asphalt": 3.68
+    },
+    "offwhite": {
+      "graphite": 17.15,
+      "offwhite": 1.0,
+      "lime": 1.07,
+      "asphalt": 4.67
+    },
+    "lime": {
+      "graphite": 16.06,
+      "offwhite": 1.07,
+      "lime": 1.0,
+      "asphalt": 4.37
+    },
+    "asphalt": {
+      "graphite": 3.68,
+      "offwhite": 4.67,
+      "lime": 4.37,
+      "asphalt": 1.0
+    }
+  },
+  "background_contrast": {
+    "graphite": {
+      "white": 18.95,
+      "light_page": 17.69,
+      "black": 1.11,
+      "telegram_dark": 1.16,
+      "android_dark": 1.01
+    },
+    "offwhite": {
+      "white": 1.1,
+      "light_page": 1.03,
+      "black": 19.01,
+      "telegram_dark": 14.75,
+      "android_dark": 16.96
+    },
+    "lime": {
+      "white": 1.18,
+      "light_page": 1.1,
+      "black": 17.8,
+      "telegram_dark": 13.81,
+      "android_dark": 15.88
+    },
+    "asphalt": {
+      "white": 5.15,
+      "light_page": 4.81,
+      "black": 4.07,
+      "telegram_dark": 3.16,
+      "android_dark": 3.63
+    }
+  },
+  "cvd_delta_e": {
+    "graphite_vs_offwhite": {
+      "normal": 91.08,
+      "protanopia": 91.03,
+      "deuteranopia": 91.15,
+      "tritanopia": 90.89
+    },
+    "graphite_vs_lime": {
+      "normal": 93.85,
+      "protanopia": 92.94,
+      "deuteranopia": 92.41,
+      "tritanopia": 88.32
+    },
+    "lime_vs_offwhite": {
+      "normal": 34.48,
+      "protanopia": 29.81,
+      "deuteranopia": 28.42,
+      "tritanopia": 14.83
+    },
+    "asphalt_vs_graphite": {
+      "normal": 31.57,
+      "protanopia": 32.27,
+      "deuteranopia": 31.12,
+      "tritanopia": 32.32
+    },
+    "asphalt_vs_offwhite": {
+      "normal": 39.51,
+      "protanopia": 38.35,
+      "deuteranopia": 40.19,
+      "tritanopia": 40.15
+    },
+    "asphalt_vs_lime": {
+      "normal": 55.62,
+      "protanopia": 54.63,
+      "deuteranopia": 56.1,
+      "tritanopia": 37.43
+    }
+  },
+  "checks": [
+    {
+      "name": "offwhite A on graphite",
+      "value": 17.15,
+      "minimum": 4.5,
+      "status": "pass"
+    },
+    {
+      "name": "lime mark on graphite",
+      "value": 16.06,
+      "minimum": 4.5,
+      "status": "pass"
+    },
+    {
+      "name": "asphalt ring on light page",
+      "value": 4.81,
+      "minimum": 3.0,
+      "status": "pass"
+    },
+    {
+      "name": "asphalt ring on Telegram dark",
+      "value": 3.16,
+      "minimum": 3.0,
+      "status": "pass"
+    },
+    {
+      "name": "asphalt ring on graphite",
+      "value": 3.68,
+      "minimum": 3.0,
+      "status": "pass"
+    },
+    {
+      "name": "offwhite never touches lime",
+      "value": 0,
+      "maximum": 0,
+      "status": "pass"
+    },
+    {
+      "name": "lime never touches asphalt ring",
+      "value": 0,
+      "maximum": 0,
+      "status": "pass"
+    },
+    {
+      "name": "offwhite never touches asphalt ring",
+      "value": 0,
+      "maximum": 0,
+      "status": "pass"
+    }
+  ],
+  "icon_v11_adjacency": {
+    "lime_white": 0,
+    "lime_asphalt": 0,
+    "white_asphalt": 0
+  },
+  "notes": [
+    "offwhite vs lime is 1.07:1 and is forbidden as a direct pair.",
+    "v11 separates every lime edge from offwhite with a 24 px graphite keyline.",
+    "The 36 px asphalt ring keeps the circular edge above 3:1 on light and dark surfaces."
+  ]
+}

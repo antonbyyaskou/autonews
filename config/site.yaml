@@ -1,0 +1,13 @@
+# Static landing page, growth phase G2 in docs/ROADMAP.md.
+# Replace base_url and channel before the first deploy. The build warns while
+# base_url still uses the .example placeholder.
+base_url: https://autonews.example
+channel: autonews_test
+
+title: "Автоновости — новые модели, электромобили и технологии"
+description: "Новости автопрома Китая, США и Европы: новые модели, характеристики, цены и сроки. Без слухов и эмодзи, со ссылкой на источник."
+
+# Verification hashes from Yandex Webmaster and Google Search Console.
+# Leave empty until issued; empty tags are omitted from the build.
+yandex_verification: ""
+google_verification: ""
